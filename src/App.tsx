@@ -16,7 +16,7 @@ function App() {
         <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/game-1.png" alt="imagem do jogo" />
 
-          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0 left-0">
+          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0">
             <strong className="font-bold text-white block">League of Legends</strong>
             <span className="text-zinc-300 text-sm block">4 anúncios</span>
           </div>
@@ -25,7 +25,7 @@ function App() {
         <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/game-2.png" alt="imagem do jogo" />
 
-          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0 left-0">
+          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0">
             <strong className="font-bold text-white block">Dota 2</strong>
             <span className="text-zinc-300 text-sm block">1 anúncios</span>
           </div>
@@ -34,7 +34,7 @@ function App() {
         <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/game-3.png" alt="imagem do jogo" />
 
-          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0 left-0">
+          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0">
             <strong className="font-bold text-white block">Counter Strike</strong>
             <span className="text-zinc-300 text-sm block">2 anúncios</span>
           </div>
@@ -43,7 +43,7 @@ function App() {
         <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/game-4.png" alt="imagem do jogo" />
 
-          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0 left-0">
+          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0">
             <strong className="font-bold text-white block">Apex Legends</strong>
             <span className="text-zinc-300 text-sm block">2 anúncios</span>
           </div>
@@ -52,7 +52,7 @@ function App() {
         <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/game-5.png" alt="imagem do jogo" />
 
-          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0 left-0">
+          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0">
             <strong className="font-bold text-white block">Fortnite</strong>
             <span className="text-zinc-300 text-sm block">1 anúncios</span>
           </div>
@@ -61,7 +61,7 @@ function App() {
         <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/game-6.png" alt="imagem do jogo" />
 
-          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0 left-0">
+          <div className="w-full pt-16 pb-4 px-4 bg-gameGradient absolute bottom-0 left-0 right-0">
             <strong className="font-bold text-white block">World of Warcraft</strong>
             <span className="text-zinc-300 text-sm block">8 anúncios</span>
           </div>
@@ -85,5 +85,5 @@ function App() {
     </div>
   )
 }
-
+/*comentario para saber */
 export default App
