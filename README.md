@@ -6,10 +6,10 @@
 
 ### Ferramentas utilizadas durante o projeto:
 
-* [https://pt-br.reactjs.org/](React)
-* [https://www.typescriptlang.org/](TypeScript);
-* [https://tailwindcss.com/](Tailwind);
+* [https://pt-br.reactjs.org/] (React)
+* [https://www.typescriptlang.org/] (TypeScript);
+* [https://tailwindcss.com/] (Tailwind);
 * Utilização de API;
-* [https://hoppscotch.io/](Hoppscotch);
+* [https://hoppscotch.io/] (Hoppscotch);
 * Banco de dados SqLite;
-* [https://www.prisma.io/](Prisma ORM)
+* [https://www.prisma.io/] (Prisma ORM)
