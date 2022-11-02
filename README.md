@@ -10,7 +10,7 @@ Imagem da tela princial.
 * [https://pt-br.reactjs.org/] (React)
 * [https://www.typescriptlang.org/] (TypeScript);
 * [https://tailwindcss.com/] (Tailwind);
-* Utilização de API;
+* Criação e Utilização de API;
 * [https://hoppscotch.io/] (Hoppscotch);
 * Banco de dados SqLite;
 * [https://www.prisma.io/] (Prisma ORM)
