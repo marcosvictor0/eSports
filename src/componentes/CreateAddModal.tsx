@@ -32,14 +32,14 @@ export function CreateAddModal() {
         const formData = new FormData(evento.target as HTMLFormElement)
         const data = Object.fromEntries(formData);
 
-        console.log(data)
+        console.log('data completo -> ', data)
         console.log(weekDays)
         console.log(useVoice)
 
         if(!data.name){
             return;
         }
-
+        
         try {
             await axios.post(`http://localhost:3333/games/${data.game}/ads`, {
                 name: data.name,
@@ -69,7 +69,8 @@ export function CreateAddModal() {
                     <div className='flex flex-col gap-2'>
                         <label htmlFor="game" className='font-semibold' >Qual o game?</label>
                         <select
-                            id='game'
+                            name="game"
+                            id="game"
                             className='bg-zinc-900 py-3 px-4 rounded text-sm placeholder:text-zinc-500 appearance-none'
                             defaultValue=""
                         >
@@ -144,10 +145,10 @@ export function CreateAddModal() {
                     </label>
 
                     <footer className='mt-4 flex justify-end gap-4'>
-                        <button
+                        <Dialog.Close
                             className='bg-zinc-500 px-5 h-12 rounded-md font-semibold hover:bg-zinc-600'>
                             Cancelar
-                        </button>
+                        </Dialog.Close>
                         <button
                             type="submit"
                             className='bg-violet-500 px-5 h-12 rounded-md font-semibold flex items-center gap-3 hover:bg-violet-600'>
